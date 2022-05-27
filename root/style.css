@@ -84,8 +84,7 @@ box-shadow:1px 1px 37px brown;
 }
 
 /* --COMIENZO DE ARTICULO PRINCIPAL--*/
-#section_main{    
-
+#section_main {    
     flex-direction: column;
     justify-items: center;
     text-align: center;
