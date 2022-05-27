@@ -14,12 +14,11 @@ body{
 /*///////BARRA DE NAVEGACION////////*/
 
 .logo{
-    width: 200px;
-    height:80px;
+    width: 100px;
+    height:50px;
     border-radius: 20px;
     float:left;
-    margin-right: 200px;
-    margin-left: 100px;
+
     margin-top: 2px;
 }
 .navegacion{
@@ -587,6 +586,9 @@ box-shadow:13px 15px 37px grey ;
         display: grid;
         background-color:whitesmoke;
     }
+    .navegacion img{
+        display: none;
+    }
     .submenu li{
         display: none;
     }
@@ -814,6 +816,9 @@ box-shadow:13px 15px 37px grey ;
         position: relative;
         width: 292%;
         
+    }
+    .navegacion img{
+        display: none;
     }
 
     #main_footer{
