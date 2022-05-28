@@ -393,7 +393,6 @@ box-shadow:13px 15px 37px black ;
 
 /*sobre nosotros*/
 #nosotros_main{
-    background-color:whitesmoke;
     text-align: center;
     width: 97%;
     margin: 0px auto;
@@ -433,7 +432,6 @@ box-shadow:13px 15px 37px black ;
 }
 /*generales body para llave en mano-luz-agua-gas-construcciones*/
 .generales_main{
-    background-color:whitesmoke;
     width: 97%;
     margin: 0px auto;
     display: grid;
@@ -442,6 +440,7 @@ box-shadow:13px 15px 37px black ;
 }
 /*posicionamiento para llave en mano-luz-agua-gas-construcciones*/
 .general img{
+    margin-bottom: 25px;
     float: left;
     height: 600px;
     border-radius: 500px;
