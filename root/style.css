@@ -11,8 +11,7 @@ body{
     min-height:100vh;
 }
 
-/*///////BARRA DE NAVEGACION////////*/
-
+/*barra navegacion*/
 .logo{
     width: 100px;
     height:50px;
@@ -33,18 +32,23 @@ body{
     list-style: none; 
     
 }
+.navegacion li ul{
+    display:none;
+}
 .menu > li {
-    background-color: whitesmoke;
+    background-color:whitesmoke;
     position: relative; 
+    text-align: center;
+    justify-content: center;
     display: inline-block; 
     margin-top: 1px;
     
 } 
-.menu > li > a {
+.menu li a {
     border-radius: 5px;
     background-color:#B91646; 
     font-size: 1.rem;
-    display: block; 
+    display:block; 
     padding: 13px 20px; 
     text-decoration: none; 
     color: whitesmoke;  
@@ -56,12 +60,13 @@ body{
 }
 .menu li a:hover{
 transform:scale(1.1);
-box-shadow:1px 1px 37px brown;
+box-shadow:1px 1px 20px brown;
 }
-/* COMIENZO SUB MENU BARRA DE NAVEGACION*/
+
+/*sub menu, barra de navegacion*/
 .submenu {
     position: absolute;
-    background-color: whitesmoke; 
+    background-color:whitesmoke; 
     padding: 20px; 
     width: 100%; 
     display: none; 
@@ -78,7 +83,7 @@ box-shadow:1px 1px 37px brown;
     border-radius: 6px;
 }
 .menu li:hover .submenu {
-    display: block; 
+    display:block; 
 }
 
 /* --COMIENZO DE ARTICULO PRINCIPAL--*/
@@ -101,21 +106,16 @@ box-shadow:1px 1px 37px brown;
     background-size: cover;
     border-radius: 15px;
     grid-column: 1/5; /*---desde donde comienza, hacia donde termina---*/
-    cursor:pointer;
-    transition: all 0.3s ease-in-out;
+
 }
-.cartaPrincipal:hover{
-transform:scale(1.005);
-box-shadow:1px 1px 10px ;
-}
+
 .cartaPrincipal h2{
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     font-size: 5em;
-    color: whitesmoke;
-
+    color: whitesmoke; 
 }
 .cartaPrincipal p{
     display: flex;
@@ -145,28 +145,8 @@ box-shadow:1px 1px 10px ;
 transform:scale(1.1);
 box-shadow:13px 15px 37px grey ;
 }
-/* --BOTONES GENERALES CARTA INDEX--*/
- .carta a{
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    margin-top: 60%;
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size: 22px;
-    color: whitesmoke;
-    border-radius: 6px;
-    background-color:#B91646;
-    transform: translate(2%, 2%);
-    text-shadow: 0 0 8px black;
-    cursor:pointer;
-    transition: all 0.3s ease-in-out;
-}
-.carta a:hover{
-transform:scale(1.1);
-box-shadow:13px 15px 37px grey ;
-}
-/* --CONTENIDO DE CARTAS/SUB CARTAS--*/
+
+/*contenido de sub cartas, todas agrupadas por la class .carta*/
 .carta{
     align-items: center;
     cursor:pointer;
@@ -191,7 +171,29 @@ box-shadow:13px 15px 37px black ;
     color: whitesmoke;
     font-size: 2em;
 }
-/*--IMAGENES DE FONDO PARA CARTAS, + UBICACION grids--*/
+/*botones "leer mas" de sub cartas*/
+.carta a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 22px;
+    color: whitesmoke;
+    border-radius: 6px;
+    background-color:#B91646;
+    transform: translate(2%, 2%);
+    text-shadow: 0 0 8px black;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.carta a:hover{
+transform:scale(1.1);
+box-shadow:13px 15px 37px grey ;
+}
+
+/*imagenes para cada sub cartas*/
 .carta1{
     background-image: url("./img/llaveenmano.jpg");
     background-repeat: no-repeat;
@@ -216,6 +218,7 @@ box-shadow:13px 15px 37px black ;
     background-position: center;
     background-size: cover;
 }
+
 /* --FOOTER--*/
 #main_footer{
     background-color:whitesmoke;
@@ -270,7 +273,8 @@ box-shadow:13px 15px 37px black ;
 
 
 /*COMIENZO DE SUB PAGINAS*/
-/*-- FOTOGALERIA--*/
+
+/*fotogaleria*/
 #main_fotogaleria{
     display: inline-block;
     text-align: center;
@@ -379,14 +383,14 @@ box-shadow:13px 15px 37px black ;
     background-size: cover;
 }
 .item15{
-    background-image: url("#");
+    background-image: url("#");/*PONER IMAGEN NO OLVIDAR*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 
-/*--SOBRE NOSOTROS--*/
+/*sobre nosotros*/
 #nosotros_main{
     background-color:whitesmoke;
     text-align: center;
@@ -407,7 +411,6 @@ box-shadow:13px 15px 37px black ;
     border-radius: 200px;
     cursor:pointer;
     transition: all 0.3s ease-in-out;
-
 }
 .nosotros img:hover{
 transform:scale(1.005);
@@ -427,7 +430,7 @@ box-shadow:13px 15px 37px black ;
 .nosotros3 img{
     float: left;
 }
-/*MAIN GENERAL DE LLAVE EN MANO, LUZ,AGUA,GAS,CONSTRUCCIONES*/
+/*generales body para llave en mano-luz-agua-gas-construcciones*/
 .generales_main{
     background-color:whitesmoke;
     width: 97%;
@@ -436,10 +439,8 @@ box-shadow:13px 15px 37px black ;
     row-gap: 1em;
     column-gap: 1em;
 }
-/*POSICIONAMIENTOS GENERAL PARA LLAVE EN MANO,LUZ,AGUA,GAS,CONSTRUCCION*/
+/*posicionamiento para llave en mano-luz-agua-gas-construcciones*/
 .general img{
-    margin-top: 50px;
-    margin-bottom: 50px;
     float: left;
     height: 600px;
     border-radius: 500px;
@@ -453,7 +454,6 @@ box-shadow:13px 15px 37px black ;
 .general p{
     font-size: 1.5em;
     text-align: center;
-    margin-top: 50px;
 }
 .general h1{
     margin-top: 100px;
@@ -464,18 +464,18 @@ box-shadow:13px 15px 37px black ;
 
 /*SERVICIOS*/
 #servicios_main{
-    background-color: whitesmoke;
     text-align: center;
     width: 97%;
     margin: 0px auto;
-    display: grid;
-    row-gap: 1em;
 }
 .servicio h2{
     font-size: 3em;
     text-align: center;
+    justify-content: space-between;
 }
 .servicio img{
+    width: 700px;
+    height: 450px;
     border-radius: 200px;
     cursor:pointer;
     transition: all 0.3s ease-in-out;
@@ -506,7 +506,7 @@ box-shadow:13px 15px 37px black ;
 }
 .servicio a:hover{
 transform:scale(1.1);
-box-shadow:13px 15px 37px grey ;
+box-shadow:3.5px 2.5px 20px grey ;
 }
 /*imagenes para servicios*/
 .servicio1 img{
@@ -521,8 +521,6 @@ box-shadow:13px 15px 37px grey ;
 .servicio4 img{
     float: right;
 }
-
-
 
 
 /*--FORMULARIO CONTATO--*/
@@ -560,7 +558,6 @@ box-shadow:13px 15px 37px grey ;
 	margin-top: 10px;  
 	padding-left: 10px;
     margin-bottom: 20px;
-    
 }
 #form_body label{
     display: block; 
@@ -575,6 +572,7 @@ box-shadow:13px 15px 37px grey ;
     color: black;
     cursor: pointer;
 }
+
 
 /*--MEDIA QUERY MOBILE---*/
 @media only screen and (min-width: 500px) and (max-width:768px){
@@ -611,7 +609,6 @@ box-shadow:13px 15px 37px grey ;
 
     /*ARTICULO PRICIPAL*/
     #section_main{
-    /*---comienzo grid, trabajo---*/
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -808,6 +805,8 @@ box-shadow:13px 15px 37px grey ;
         font-size: 1.2em;
     }
 
+
+    /*otra media query*/
 }
 @media only screen and (max-width:498px) {
     .navegacion{
@@ -819,7 +818,6 @@ box-shadow:13px 15px 37px grey ;
     .navegacion img{
         display: none;
     }
-
     #main_footer{
         position: relative;
         width: 300%;
@@ -834,7 +832,6 @@ box-shadow:13px 15px 37px grey ;
         list-style: none; 
         margin-left: 2%;
     }
-
     #main_footer li a:hover {
         color:orangered; 
       }
@@ -844,21 +841,19 @@ box-shadow:13px 15px 37px grey ;
     }
 
 
-
     #section_main{
-        /*---comienzo grid, trabajo---*/
+    /*---comienzo grid, trabajo---*/
         position: relative;
         width: 290%;
         align-items: center;
         display: block;
         justify-content: center;
-        }
+    }
 
-
-        .submenu li{
-            display: none;
-        }
-        .menu > li > a {
+    .submenu li{
+        display: none;
+    }
+    .menu > li > a {
         border-radius: 5px;
         background-color:#B91646; 
         font-size: 1em;
@@ -889,7 +884,6 @@ box-shadow:13px 15px 37px grey ;
     .carta a{
         font-size: 3em;
     }
-
 
     #nosotros_main{
         display: flex;
@@ -934,7 +928,6 @@ box-shadow:13px 15px 37px grey ;
     .generales_main img{
         width: 500px;
         height: 300px;
-
     }
      .general h1{
          margin-top: 2px;
@@ -945,6 +938,7 @@ box-shadow:13px 15px 37px grey ;
         font-size: 3em;
         margin-top: 10px;
     }
+
     #main_fotogaleria{
         width: 293%;
         margin: 0px auto;
@@ -971,13 +965,11 @@ box-shadow:13px 15px 37px grey ;
     .item15{
         display: none;
     }
+
     #form_body{
         background-color:white;
-
-
         width: 200%;
         margin-left: 90px;
-
     }
     #form_body h1{
         font-size: 1.8em;
