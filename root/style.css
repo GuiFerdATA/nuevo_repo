@@ -223,10 +223,11 @@ box-shadow:13px 15px 37px grey ;
 #main_footer{
     background-color:whitesmoke;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
 }
+
 #main_footer p{
     margin-top: 20px;
     background-color: #B91646;
@@ -534,7 +535,7 @@ box-shadow:3.5px 2.5px 20px grey ;
 }
 #form_body form{
     position: absolute;
-    top: 350px;
+    top: 450px;
     align-items: center;  
 }
 #form_body h1{
@@ -778,10 +779,7 @@ box-shadow:3.5px 2.5px 20px grey ;
         font-size: 1.2em;
         margin-top: 5px;
     }
-    #form_body h2{
-        font-size: 1em;
-        margin-top: 5px;
-    }
+
     #form_body form{
         background-color:white;
         display: flex;
