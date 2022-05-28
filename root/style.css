@@ -422,12 +422,16 @@ box-shadow:13px 15px 37px black ;
 }
 .nosotros1 img{
     float: left;
+    width: 600px;
 }
 .nosotros2 img{
     float: right;
+    width: 600px;
+    
 }
 .nosotros3 img{
     float: left;
+    width: 600px;
 }
 /*generales body para llave en mano-luz-agua-gas-construcciones*/
 .generales_main{
