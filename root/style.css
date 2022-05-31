@@ -7,24 +7,25 @@
 /* ///////////////////////////////////////COMIENZO DEL INDEX/////////////////////////////////////*/
 body{
     font-family: sans-serif;
+    background-color: whitesmoke;
 
 
     min-height:100vh;
 }
 header{
     background: rgb(49,24,94);
-    background: linear-gradient(180deg, rgba(49,24,94,1) 0%, rgba(187,9,140,0.2455357142857143) 100%);
+    background: linear-gradient(180deg, rgba(49,24,94,1) 0%, rgba(123,95,186,0.18110994397759106) 100%);
 }
 .navbar{
     margin-bottom: 20px;
 }
 .navbar ul li a{
     font-size: 2rem;
-    color: white;
+    color: whitesmoke;
 }
 .navbar-brand{
     font-size: 2rem;
-    color: aliceblue;
+    color: white;
 }
 
 .dropdown-menu{
@@ -65,7 +66,7 @@ header{
     justify-items: center;
     align-items: center;
     font-size: 5em;
-    color:white; 
+    color:whitesmoke; 
 }
 .cartaPrincipal p{
     display: flex;
@@ -171,7 +172,8 @@ box-shadow:13px 15px 37px grey ;
 
 /* --FOOTER--*/
 #main_footer{
-    background-color:white;
+    background: rgb(49,24,94);
+    background: linear-gradient(0deg, rgba(49,24,94,1) 0%, rgba(123,95,186,0.18110994397759106) 100%);
     text-align: center;
     margin-top: 0px;
     display: grid;
@@ -193,9 +195,8 @@ box-shadow:13px 15px 37px grey ;
     float: left;
     margin-top: 2px;
     margin-right: 20px;
-    padding: 10px 4px;
-    background-color:whitesmoke;
-    color:#B91646;
+    padding: 10px 4px;  
+    color:whitesmoke;
     font-size: 1.2rem;
     cursor: pointer;
     transition:all 0.3s ease-in-out;
