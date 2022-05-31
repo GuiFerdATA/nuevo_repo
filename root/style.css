@@ -7,78 +7,33 @@
 /* ///////////////////////////////////////COMIENZO DEL INDEX/////////////////////////////////////*/
 body{
     font-family: sans-serif;
-    background-color:white;
+
+
     min-height:100vh;
 }
-
-/*barra navegacion*/
-.logo{
-    width: 200px;
-    height:100px;
-    border-radius: 20px;    
-    margin-top: 2px;
+header{
+    background: rgb(49,24,94);
+    background: linear-gradient(180deg, rgba(49,24,94,1) 0%, rgba(187,9,140,0.2455357142857143) 100%);
 }
-.navegacion{
-    border: 4px;
+.navbar{
     margin-bottom: 20px;
-    text-align: center;
 }
-.navegacion ul {
-    list-style: none; 
-    
+.navbar ul li a{
+    font-size: 2rem;
+    color: white;
 }
-.navegacion li ul{
-    display:none;
-}
-.menu > li {
-    position: relative; 
-    text-align: center;
-    justify-content: center;
-    display: inline-block; 
-    margin-top: 1px;
-    
-} 
-.menu li a {
-    border-radius: 5px;
-    background-color:#B91646; 
-    font-size: 1.rem;
-    display:block; 
-    padding: 13px 20px; 
-    text-decoration: none; 
-    color: whitesmoke;  
-    width: 170px; 
-    text-align: center; 
-    margin: 20px;
-    cursor:pointer;
-    transition: all 0.3s ease-in-out;
-}
-.menu li a:hover{
-transform:scale(1.1);
-box-shadow:1px 1px 20px brown;
+.navbar-brand{
+    font-size: 2rem;
+    color: aliceblue;
 }
 
-/*sub menu, barra de navegacion*/
-.submenu {
-    position: absolute;
-    background-color: transparent; 
-    padding: 10px; 
-    width: 100%; 
-    display: none; 
+.dropdown-menu{
+    background: rgb(49,24,94);
+    background: linear-gradient(180deg, rgba(49,24,94,1) 0%, rgba(187,9,140,0.2455357142857143) 100%);
 }
-.submenu li a {
-    margin: 5px;
-    font-size: 1rem;
-    display: block; 
-    background-color:#B91646;
-    padding: 13px;
-    text-decoration: none; 
-    color: whitesmoke; 
-    text-align: center; 
-    border-radius: 6px;
-}
-.menu li:hover .submenu {
-    display:block; 
-}
+
+
+
 
 /* --COMIENZO DE ARTICULO PRINCIPAL--*/
 .section_main {    
