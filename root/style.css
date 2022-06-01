@@ -42,11 +42,6 @@ header{
     text-align: center;
     width: 97%;
     margin: 0px auto;
-/*---comienzo grid, trabajo---*/
-    display: grid;
-    row-gap: 1em;
-    column-gap: 1em;
- /*---tambien podria usar grid-template-areas para posicionar las areas---*/
 }
 .cartaPrincipal{
     background-image: url("./img/Nosotros.jpg");
@@ -55,7 +50,7 @@ header{
     background-size: cover;
     height: 650px;
     border-radius: 15px;
-    grid-column: 1/5; /*---desde donde comienza, hacia donde termina---*/
+
 
 }
 
@@ -179,7 +174,6 @@ box-shadow:13px 15px 37px grey ;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
 }
-
 #main_footer p{
     margin-top: 20px;
     background-color: #B91646;
@@ -526,8 +520,6 @@ box-shadow:3.5px 2.5px 20px grey ;
 
 /*--MEDIA QUERY MOBILE---*/
 @media only screen and (min-width: 500px) and (max-width:768px){
-
-
     /*ARTICULO PRICIPAL*/
 
     .cartaPrincipal{
@@ -722,7 +714,6 @@ box-shadow:3.5px 2.5px 20px grey ;
 /*otra media query*/
 
 @media only screen and (min-width: 320px) and (max-width:499px){
- 
 
     /*ARTICULO PRICIPAL*/
     .section_main{
