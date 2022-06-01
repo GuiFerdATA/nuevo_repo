@@ -27,12 +27,10 @@ header{
     font-size: 2rem;
     color: white;
 }
-
 .dropdown-menu{
     background: rgb(49,24,94);
     background: linear-gradient(180deg, rgba(49,24,94,1) 0%, rgba(187,9,140,0.2455357142857143) 100%);
 }
-
 
 
 
@@ -50,10 +48,7 @@ header{
     background-size: cover;
     height: 650px;
     border-radius: 15px;
-
-
 }
-
 .cartaPrincipal h2{
     display: flex;
     flex-direction: column;
@@ -217,7 +212,6 @@ box-shadow:13px 15px 37px grey ;
 /*FIN DE INDEX*/
 
 
-
 /*COMIENZO DE SUB PAGINAS*/
 
 /*fotogaleria*/
@@ -335,16 +329,12 @@ box-shadow:13px 15px 37px black ;
     background-size: cover;
 }
 
-
 /*sobre nosotros*/
-#nosotros_main{
+.nosotros_main{
     text-align: center;
     width: 97%;
     margin: 0px auto;
-    display: grid;
-    grid-template-columns:repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    row-gap: 1em;
+
 }
 .nosotros h1{
     margin-top: 10px;
@@ -558,7 +548,7 @@ box-shadow:3.5px 2.5px 20px grey ;
     }
 
     /*QUIENES SOMOS*/
-    #nosotros_main{
+    .nosotros_main{
         display: flex;
         flex-direction: column;
         justify-items: center;
@@ -718,7 +708,6 @@ box-shadow:3.5px 2.5px 20px grey ;
     /*ARTICULO PRICIPAL*/
     .section_main{
         display: grid;
-        
     }
     .cartaPrincipal{
         background-image: url("./img/Nosotros.jpg");
@@ -757,8 +746,7 @@ box-shadow:3.5px 2.5px 20px grey ;
     }
 
     /*QUIENES SOMOS*/
-    #nosotros_main{
-        display: flex;
+    .nosotros_main{
         flex-direction: column;
         justify-items: center;
         text-align: center;
