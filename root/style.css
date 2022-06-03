@@ -19,7 +19,7 @@ header{
 }
 .navbar ul li a{
     font-size: 2rem;
-    color: whitesmoke;
+    color: white;
 }
 .navbar-brand{
     font-size: 2rem;
@@ -48,13 +48,13 @@ header{
     border-radius: 15px;
 }
 .cartaPrincipal h2{
-    margin-top: 30px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     font-size: 6em;
-    color: #B91646;
+
 }
 
 .cartaPrincipal p{
@@ -63,14 +63,11 @@ header{
     justify-items: center;
     align-items: center;
     font-size: 2em;
-    color:aliceblue;
-    margin-top: 80px;   
+    margin-top: 50px;   
 }
 .cartaPrincipal a{
     text-decoration: none;
-    display: inline-block;
     position: relative;
-    margin-top: 90px;
     padding: 10px;
     font-size: 22px;
     color: whitesmoke;
@@ -102,6 +99,7 @@ box-shadow:13px 15px 37px black ;
 .carta h2{
     margin-top: 20px;
     background-color: #B91646;
+    color: white;
     padding-top: 20px;
     font-size: 3em;
     display: flex;
@@ -526,13 +524,14 @@ box-shadow:3.5px 2.5px 20px grey ;
     }
     .cartaPrincipal a{
         top: 10%;
-
     }
     .cartaPrincipal p{
         font-size: 1.5em;
     }
     .cartaPrincipal h2{
         font-size: 3em;
+        color: #343a40;
+        background-color: #B91646;
     }
 
     /*ARTICULOS SECUDANRIOS*/
@@ -721,15 +720,15 @@ box-shadow:3.5px 2.5px 20px grey ;
         cursor:pointer;
         transition: all 0.3s ease-in-out;
     }
-    .cartaPrincipal a{
-        top: 10%;
 
-    }
     .cartaPrincipal p{
         font-size: 1.5em;
     }
     .cartaPrincipal h2{
+        background-color: #B91646;
+        color:#343a40;
         font-size: 3em;
+        border-radius: 10px;
     }
 
     /*ARTICULOS SECUDANRIOS*/
@@ -741,7 +740,8 @@ box-shadow:3.5px 2.5px 20px grey ;
         width: 97%;
     }
     .carta h2{
-        font-size: 3em ;
+        font-size: 1.8em;
+        border-radius: 10px;
     }
     .carta p{
         font-size:1.5em;
