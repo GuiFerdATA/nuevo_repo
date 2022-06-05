@@ -1,0 +1,898 @@
+/*///////////RESET////////////*/
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ///////////////////////////////////////COMIENZO DEL INDEX/////////////////////////////////////*/
+body{
+    font-family: sans-serif;
+    min-height:100vh;
+    background-color:tan;
+}
+header{
+    background: rgb(49,24,94);
+    background: linear-gradient(180deg, rgba(49,24,94,1) 0%, rgba(123,95,186,0.18110994397759106) 100%);
+}
+.navbar{
+    margin-bottom: 20px;
+}
+.navbar ul li a{
+    font-size: 2rem;
+    color: white;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: white;
+}
+.dropdown-menu{
+    background: rgb(49,24,94);
+    background: linear-gradient(180deg, rgba(49,24,94,1) 0%, rgba(187,9,140,0.2455357142857143) 100%);
+}
+
+/* --COMIENZO DE ARTICULO PRINCIPAL--*/
+.section_main {    
+    justify-items: center;
+    text-align: center;
+    width: 97%;
+    margin: 0px auto;
+}
+.cartaPrincipal{
+    background-image: url("./img/Nosotros.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    border-radius: 15px;
+}
+.cartaPrincipal h2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 6em;
+    -webkit-text-stroke: 1px black;
+    color:#B91646;
+}
+.cartaPrincipal p{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 2.5em;
+    margin-top: 100px;  
+    color:black; 
+    -webkit-text-stroke: 1px #343a40;
+}
+.cartaPrincipal a{
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+    font-size: 22px;
+    color: whitesmoke;
+    border-radius: 6px;
+    background-color:#B91646;
+    transform: translate(2%, 2%);
+    text-shadow: 0 0 8px black;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.cartaPrincipal a:hover{
+transform:scale(1.1);
+box-shadow:13px 15px 37px grey ;
+}
+
+/*contenido de sub cartas, todas agrupadas por la class .carta*/
+.carta{
+    margin: 5px;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+.carta:hover{
+transform:scale(1.05);
+box-shadow:13px 15px 37px black ;
+}
+.carta h2{
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    color:white; 
+    -webkit-text-stroke: 1px #343a40;
+    background-color: #B91646;
+    border-radius: 10px;
+}
+.carta p{
+    position: relative;
+    margin-top: 60px;
+    font-size: 2.2em;
+    color:white;
+}
+/*botones "leer mas" de sub cartas*/
+.carta a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 22px;
+    color: whitesmoke;
+    border-radius: 6px;
+    background-color:#B91646;
+    transform: translate(2%, 2%);
+    text-shadow: 0 0 8px black;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.carta a:hover{
+transform:scale(1.1);
+box-shadow:13px 15px 37px grey ;
+}
+
+/*imagenes para cada sub cartas*/
+.carta1{
+    background-image: url("./img/llaveenmano.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carta2{
+    background-image: url("./img/servicios.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carta3{
+    background-image: url("./img/fotogaleria.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carta4{
+    background-image: url("./img/contacto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* --FOOTER--*/
+#main_footer{
+    background: rgb(49,24,94);
+    background: linear-gradient(0deg, rgba(49,24,94,1) 0%, rgba(123,95,186,0.18110994397759106) 100%);
+    text-align: center;
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+}
+#main_footer p{
+    margin-top: 20px;
+    background-color: #B91646;
+    font-size: 1.5rem;
+    color:white;
+}
+  #main_footer ul{
+    list-style: none; 
+    margin-left: 2%;
+}
+#main_footer li a{
+    position: relative;
+    float: left;
+    margin-top: 2px;
+    margin-right: 20px;
+    padding: 10px 4px;  
+    color:whitesmoke;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition:all 0.3s ease-in-out;
+}
+#main_footer li a:hover {
+    color:orangered; 
+  }
+#main_footer ul p{
+    font-size: 1.5rem ;
+    background-color: #B91646;
+    color:whitesmoke;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 2%;
+}
+.redes{
+    position: relative;
+    margin-top: 35px;
+}
+.redes img{
+    position: relative;
+    margin: 20px;
+}
+/*FIN DE INDEX*/
+
+
+/*COMIENZO DE SUB PAGINAS*/
+
+/*fotogaleria*/
+.main_fotogaleria{
+    display: inline-block;
+    text-align: center;
+    width: 97%;
+    height: 1000px;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(4, 1fr) ;
+    row-gap: 1em;
+    column-gap: 1em;
+}
+.item{
+    display: inline-block;
+    cursor:pointer;
+    border-radius: 6px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.item:hover{
+transform:scale(1.005);
+box-shadow:13px 15px 37px black ;
+}
+.item1{
+    background-image: url("./img/fotogaleria/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item2{
+    background-image: url("./img/fotogaleria/2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item3{
+    background-image: url("./img/fotogaleria/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item4{
+    background-image: url("./img/fotogaleria/4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item5{
+    background-image: url("./img/fotogaleria/5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item6{
+    background-image: url("./img/fotogaleria/6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item7{
+    background-image: url("./img/fotogaleria/7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item8{
+    background-image: url("./img/fotogaleria/8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item9{
+    background-image: url("./img/fotogaleria/9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item10{
+    background-image: url("./img/fotogaleria/10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item11{
+    background-image: url("./img/fotogaleria/fi-exterior-pkok9192p-lok.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item12{
+    background-image: url("./img/fotogaleria/12.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item13{
+    background-image: url("./img/fotogaleria/13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item14{
+    background-image: url("./img/fotogaleria/15.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item15{
+    background-image: url("#");/*PONER IMAGEN NO OLVIDAR*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*sobre nosotros*/
+.nosotros_main{
+    text-align: center;
+    width: 97%;
+    margin: 0px auto;
+
+}
+.nosotros h1{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 3em;
+    text-align: center;
+}
+.nosotros img{
+    border-radius: 200px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.nosotros img:hover{
+transform:scale(1.005);
+box-shadow:13px 15px 37px black ;
+}
+.nosotros p{
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+}
+.nosotros1 img{
+    float: left;
+    width: 600px;
+}
+.nosotros2 img{
+    float: right;
+    width: 600px;
+}
+.nosotros3 img{
+    float: left;
+    width: 600px;
+}
+/*generales body para llave en mano-luz-agua-gas-construcciones*/
+.generales_main{
+    width: 97%;
+    margin: 0px auto;
+    display: grid;
+    row-gap: 1em;
+    column-gap: 1em;
+}
+/*posicionamiento para llave en mano-luz-agua-gas-construcciones*/
+.general img{
+    margin-bottom: 25px;
+    float: left;
+    height: 600px;
+    border-radius: 500px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.general img:hover{
+transform:scale(1.005);
+box-shadow:13px 15px 37px black ;
+}
+.general p{
+    font-size: 1.5em;
+    text-align: center;
+}
+.general h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3em;
+}
+
+/*SERVICIOS*/
+.servicios_main{
+    text-align: center;
+    width: 97%;
+    margin: 0px auto;
+}
+.servicio h2{
+    font-size: 3em;
+    text-align: center;
+    justify-content: space-between;
+}
+.servicio img{
+    width: 500px;
+    height: 250px;
+    border-radius: 200px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.servicio img:hover{
+transform:scale(1.005);
+box-shadow:13px 15px 37px black ;
+}
+.servicio p{
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+}
+.servicio a{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 6px;
+    background-color:#B91646;
+    transform: translate(2%, 2%);
+    text-shadow: 0 0 8px black;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.servicio a:hover{
+transform:scale(1.1);
+box-shadow:3.5px 2.5px 20px grey ;
+}
+/*imagenes para servicios*/
+.servicio1 img{
+    float: left;
+}
+.servicio2 img{
+    float: right;
+}
+.servicio3 img{
+    float: left;
+}
+.servicio4 img{
+    float: right;
+}
+
+/*--FORMULARIO CONTATO--*/
+#form_body{    
+    height: 900px;
+    background-color:tan;
+    color:black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+#form_body form{
+    position: absolute;
+    top: 300px;
+    align-items: center;  
+}
+#form_body h1{
+    margin-top: 30px;
+}   
+#form_body h3{
+    margin-top: 10px;
+}
+#form_body input {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color:white; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 2px; 
+	border-color: #ab4493; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px;
+}
+#form_body label{
+    display: block; 
+    float: center; 	
+}
+#form_body span{
+    color: #B91646;
+}
+#enviar{
+    padding: 0.5em 1em;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+/*--MEDIA QUERY MOBILE---*/
+@media only screen and (min-width: 500px) and (max-width:768px){
+    /*ARTICULO PRICIPAL*/
+
+    .cartaPrincipal{
+        background-image: url("./img/Nosotros.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+        grid-column: 1/2; /*---desde donde comienza, hacia donde termina---*/
+        cursor:pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    .cartaPrincipal a{
+        top: 10%;
+    }
+    .cartaPrincipal p{
+        font-size: 1.5em;
+    }
+    .cartaPrincipal h2{
+        font-size: 3em;
+        color: #343a40;
+        background-color: #B91646;
+    }
+
+    /*ARTICULOS SECUDANRIOS*/
+    .carta{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+    }
+    .carta h2{
+        font-size: 2em ;
+    }
+    .carta p{
+        font-size:1.5em;
+    }
+
+    /*QUIENES SOMOS*/
+    .nosotros_main{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 97%;
+        margin: 0px auto;
+    /*---comienzo grid, trabajo---*/
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .nosotros  img{
+        width: 300px;
+    }
+    .nosotros h1{
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    .nosotros p{
+        font-size: 1.2em;
+        margin-top: 10px;
+
+    }
+    .nosotros2 img{
+        float: left;
+    }
+
+    /*MAIN GENERAL DE LLAVE EN MANO, LUZ,AGUA,GAS,CONSTRUCCIONES*/
+    .generales_main{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 97%;
+        margin: 0px auto;
+    }
+    .generales_main img{
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+     .general h1{
+         margin-top: 2px;
+        font-size: 2em;
+        color: #ab4493;
+    }
+    .general p{
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    /*SERVICIOS*/
+    .servicios_main{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 97%;
+        margin: 0px auto;
+    }
+     .servicio img{
+         width: 300px;
+         height: 200px;
+         margin-top: 10px;
+    }
+    .servicio h2{
+        color: #ab4493;
+        font-size: 2em;
+    }
+    .servicio p{
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+    .servicio img{
+        float: left;
+    }
+    .servicio img{
+        display: none;
+    }
+
+    /*FOTOGALERIA*/
+    .main_fotogaleria{
+        margin: 0px auto;
+    /*---comienzo grid, trabajo---*/
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+    .main_fotogaleria div{
+        height: 200px;
+    }
+    .item10{
+        display: none;
+    }
+    .item11{
+        display: none;
+    }
+    .item13{
+        display: none;
+    }
+    .item14{
+        display: none;
+    }
+    .item15{
+        display: none;
+    }
+
+    /*FORMULARIO*/
+    #form_body{
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 97%;
+        margin: 0px auto;
+    }
+    #form_body h1{
+        font-size: 1.8em;
+        margin-top: 5px;
+    }
+    #form_body h2{
+        font-size: 1.2em;
+        margin-top: 5px;
+    }
+
+    #form_body form{
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 97%;
+        margin: 0px auto;
+    }
+    
+    /*FOOTER*/
+    #main_footer p{
+        font-size: 1em;
+    }
+    #main_footer li a{
+
+    color:#B91646;
+    font-size: 0.6em;
+    }
+    #main_footer ul p{
+        font-size: 1.2em;
+    }
+}
+
+/*otra media query*/
+
+@media only screen and (min-width: 320px) and (max-width:499px){
+
+    /*ARTICULO PRICIPAL*/
+    .section_main{
+        display: grid;
+    }
+    .cartaPrincipal{
+        background-image: url("./img/Nosotros.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 15px;
+        grid-column: 1/2; /*---desde donde comienza, hacia donde termina---*/
+        cursor:pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .cartaPrincipal p{
+        font-size: 1.5em;
+    }
+    .cartaPrincipal h2{
+        background-color: #B91646;
+        color:#343a40;
+        font-size: 3em;
+        border-radius: 10px;
+    }
+
+    /*ARTICULOS SECUDANRIOS*/
+    .carta{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 97%;
+    }
+    .carta h2{
+        font-size: 2.2em;
+        border-radius: 10px;
+        color: #343a40;
+        -webkit-text-stroke: 2px black;
+    }
+    .carta p{
+        font-size:1.5em;
+    }
+
+    /*QUIENES SOMOS*/
+    .nosotros_main{
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 97%;
+        margin: 0px auto;
+    /*---comienzo grid, trabajo---*/
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    
+    .nosotros  img{
+        width: 300px;
+    }
+    .nosotros h1{
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+    .nosotros p{
+        font-size: 1.2em;
+        margin-top: 10px;
+
+    }
+    .nosotros2 img{
+        float: left;
+    }
+
+    /*MAIN GENERAL DE LLAVE EN MANO, LUZ,AGUA,GAS,CONSTRUCCIONES*/
+    .generales_main{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 97%;
+        margin: 0px auto;
+    }
+    .generales_main img{
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+     .general h1{
+         margin-top: 2px;
+        font-size: 2em;
+        color: #ab4493;
+    }
+    .general p{
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    /*SERVICIOS*/
+    .servicios_main{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 97%;
+        margin: 0px auto;
+    }
+     .servicio img{
+         width: 300px;
+         height: 200px;
+         margin-top: 10px;
+    }
+    .servicio h2{
+        color: #ab4493;
+        font-size: 2em;
+    }
+    .servicio p{
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+    .servicio img{
+        float: left;
+    }
+    .servicio img{
+        display: none;
+    }
+
+    /*FOTOGALERIA*/
+    .main_fotogaleria{
+        margin: 0px auto;
+    /*---comienzo grid, trabajo---*/
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+    .main_fotogaleria div{
+        height: 200px;
+    }
+    .item10{
+        display: none;
+    }
+    .item11{
+        display: none;
+    }
+    .item13{
+        display: none;
+    }
+    .item14{
+        display: none;
+    }
+    .item15{
+        display: none;
+    }
+
+    /*FORMULARIO*/
+    #form_body{
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 97%;
+        margin: 0px auto;
+    }
+    #form_body h1{
+        font-size: 1.8em;
+        margin-top: 5px;
+    }
+    #form_body h2{
+        font-size: 1.2em;
+        margin-top: 5px;
+    }
+
+    #form_body form{
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 97%;
+        margin: 0px auto;
+    }
+    
+    /*FOOTER*/
+    #main_footer p{
+        font-size: 1em;
+    }
+    #main_footer li a{
+    color:#B91646;
+    font-size: 0.6em;
+    }
+    #main_footer ul p{
+        font-size: 1.2em;
+    }
+}
