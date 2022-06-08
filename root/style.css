@@ -488,7 +488,7 @@ header {
     cursor: pointer;
     transition: all 0.3s ease-in-out; }
   .cartaPrincipal a {
-    top: 10%; }
+    top: 0%; }
   .cartaPrincipal p {
     font-size: 1.5em; }
   .cartaPrincipal h2 {
@@ -636,7 +636,7 @@ header {
     cursor: pointer;
     transition: all 0.3s ease-in-out; }
   .cartaPrincipal p {
-    font-size: 1.5em; }
+    font-size: 1em; }
   .cartaPrincipal h2 {
     background-color: #B91646;
     color: #343a40;
