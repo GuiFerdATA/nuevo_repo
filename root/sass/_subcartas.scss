@@ -1,0 +1,76 @@
+.carta{
+    margin: 5px;
+    align-items: center;
+    cursor:pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        transform:scale(1.05);
+        box-shadow:13px 15px 37px black ;
+    }
+    h2{
+        padding: 10px;
+        margin-top: 20px;
+        color: white;
+        font-size: 2em;
+        display: flex;
+        flex-direction: column;
+        color:white; 
+        -webkit-text-stroke: 1px #343a40;
+        background-color: #B91646;
+        border-radius: 10px;
+    }
+    p{
+        position: relative;
+        margin-top: 60px;
+        font-size: 2.2em;
+        color:white;
+    }
+    /*botones "leer mas" de sub cartas*/
+    a{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 22px;
+    color: whitesmoke;
+    border-radius: 6px;
+    background-color:#B91646;
+    transform: translate(2%, 2%);
+    text-shadow: 0 0 8px black;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+    }
+    & a:hover{
+        transform:scale(1.1);
+        box-shadow:13px 15px 37px grey ;
+    }
+} 
+/*imagenes para cada sub cartas*/
+.carta1{
+    background-image: url("./img/llaveenmano.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carta2{
+    background-image: url("./img/servicios.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carta3{
+    background-image: url("./img/fotogaleria.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carta4{
+    background-image: url("./img/contacto.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

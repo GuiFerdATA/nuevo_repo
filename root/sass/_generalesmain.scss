@@ -1,0 +1,29 @@
+.generales_main{
+    width: 97%;
+    margin: 0px auto;
+    display: grid;
+    row-gap: 1em;
+    column-gap: 1em;
+}
+/*posicionamiento para llave en mano-luz-agua-gas-construcciones*/
+.general img{
+    margin-bottom: 25px;
+    float: left;
+    height: 600px;
+    border-radius: 500px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.general img:hover{
+transform:scale(1.005);
+box-shadow:13px 15px 37px black ;
+}
+.general p{
+    font-size: 1.5em;
+    text-align: center;
+}
+.general h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3em;
+}

@@ -1,0 +1,52 @@
+.section_main {    
+    justify-items: center;
+    text-align: center;
+    width: 97%;
+    margin: 0px auto;
+
+    .cartaPrincipal{
+        background-image: url("./img/Nosotros.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 670px;
+        border-radius: 15px;
+
+        h2{
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            font-size: 3em;
+            background-color: #B91646;
+            color:#343a40;
+        }
+        p{
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            font-size: 1.8em;
+            margin-top: 60px;  
+            color:black; 
+            -webkit-text-stroke: 1px #343a40;
+        }
+        a{
+            text-decoration: none;
+            position: relative;
+            padding: 10px;
+            font-size: 22px;
+            color: whitesmoke;
+            border-radius: 6px;
+            background-color:#B91646;
+            transform: translate(2%, 2%);
+            text-shadow: 0 0 8px black;
+            cursor:pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        & a:hover{
+            transform:scale(1.1);
+            box-shadow:13px 15px 37px grey ;
+        }
+    }
+}

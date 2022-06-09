@@ -1,0 +1,58 @@
+.servicios_main{
+    text-align: center;
+    width: 97%;
+    margin: 0px auto;
+}
+.servicio h2{
+    font-size: 3em;
+    text-align: center;
+    justify-content: space-between;
+}
+.servicio img{
+    width: 500px;
+    height: 250px;
+    border-radius: 200px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.servicio img:hover{
+transform:scale(1.005);
+box-shadow:13px 15px 37px black ;
+}
+.servicio p{
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+}
+.servicio a{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    border-radius: 6px;
+    background-color:#B91646;
+    transform: translate(2%, 2%);
+    text-shadow: 0 0 8px black;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.servicio a:hover{
+transform:scale(1.1);
+box-shadow:3.5px 2.5px 20px grey ;
+}
+/*imagenes para servicios*/
+.servicio1 img{
+    float: left;
+}
+.servicio2 img{
+    float: right;
+}
+.servicio3 img{
+    float: left;
+}
+.servicio4 img{
+    float: right;
+}

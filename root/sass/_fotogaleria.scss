@@ -1,0 +1,113 @@
+.main_fotogaleria{
+    display: inline-block;
+    text-align: center;
+    width: 97%;
+    height: 1000px;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:repeat(4, 1fr) ;
+    row-gap: 1em;
+    column-gap: 1em;
+}
+.item{
+    display: inline-block;
+    cursor:pointer;
+    border-radius: 6px;
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.item:hover{
+transform:scale(1.005);
+box-shadow:13px 15px 37px black ;
+}
+.item1{
+    background-image: url("./img/fotogaleria/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item2{
+    background-image: url("./img/fotogaleria/2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item3{
+    background-image: url("./img/fotogaleria/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item4{
+    background-image: url("./img/fotogaleria/4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item5{
+    background-image: url("./img/fotogaleria/5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item6{
+    background-image: url("./img/fotogaleria/6.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item7{
+    background-image: url("./img/fotogaleria/7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item8{
+    background-image: url("./img/fotogaleria/8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item9{
+    background-image: url("./img/fotogaleria/9.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item10{
+    background-image: url("./img/fotogaleria/10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item11{
+    background-image: url("./img/fotogaleria/fi-exterior-pkok9192p-lok.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item12{
+    background-image: url("./img/fotogaleria/12.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item13{
+    background-image: url("./img/fotogaleria/13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item14{
+    background-image: url("./img/fotogaleria/15.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.item15{
+    background-image: url("#");/*PONER IMAGEN NO OLVIDAR*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

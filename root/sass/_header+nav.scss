@@ -1,0 +1,26 @@
+header{
+    background: rgb(49,24,94);
+    background: linear-gradient(180deg, rgba(49,24,94,1) 0%, rgba(123,95,186,0.18110994397759106) 100%);
+
+    .navbar{
+        margin-bottom: 20px;
+    
+        ul{
+            li{
+                a{
+                    font-size: 2rem;
+                    color: white;
+                }
+            } 
+        }
+        .navbar-brand{
+            font-size: 2rem;
+            color: white;
+        }
+        .dropdown-menu{
+            background: rgb(49,24,94);
+            background: linear-gradient(180deg, rgba(49,24,94,1) 0%, rgba(187,9,140,0.2455357142857143) 100%);
+        }
+    
+    }
+}
